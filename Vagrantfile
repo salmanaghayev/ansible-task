@@ -1,4 +1,4 @@
-r -*- mode: ruby -*-
+# -*- mode: ruby -*-
 # vi: set ft=ruby :
 
 sshportPoint = "200"
