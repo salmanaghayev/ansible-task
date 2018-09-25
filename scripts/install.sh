@@ -9,7 +9,7 @@ then
 10.1.2.42.101   webserver
 10.1.2.42.102  dbserver
 EOF
-   echo "$1" > /vagrant/ansible/vault_pass.txt
+    echo "$1" > /vagrant/ansible/vault_pass.txt
     mkdir -p /home/vagrant/ansible
     cp -R /vagrant/ansible/* /home/vagrant/ansible
     chmod 644 /home/vagrant/ansible/{ansible.cfg,vault_pass.txt} 
