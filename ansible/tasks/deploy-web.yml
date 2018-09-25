@@ -118,3 +118,20 @@
   shell: "{{keycloakPath}}/bin/add-user.sh --silent=true {{ appuser }} {{ apppasswd }} ManagementRealm"
   register: appuser_added
   when: service_started is success  
+
+- pause:
+   seconds: 30
+  when: appuser_added is success 
+  register: wait_sometime
+
+- uri:
+    url: http://10.1.42.102:9990/console/App.html
+    return_content: yes
+  register: webpage
+  when: wait_sometime is success
+
+- name: Fail if Management Interface is not in the page content
+  fail:
+  when: "'Management Interface' not in webpage.content"
+  
+  
