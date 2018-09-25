@@ -1,8 +1,7 @@
-# -*- mode: ruby -*-
+r -*- mode: ruby -*-
 # vi: set ft=ruby :
 
 sshportPoint = "200"
-current_dir = File.dirname(File.expand_path(__FILE__))
 print "Enter the ansible vault password: "
 ansiblevault_pass = STDIN.gets.chomp
 print "\n"
