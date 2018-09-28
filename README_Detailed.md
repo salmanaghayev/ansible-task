@@ -33,7 +33,7 @@ $ vagrant up
 
 If below link opens and requires username password and can be logged in with user: admin; pass: admin. It means everything is working
 ```
-http://10.1.42.102:9990
+[http://10.1.42.102:9990](http://10.1.42.102:9990)
 ```
 ## Detailed description of how process will happen
 
