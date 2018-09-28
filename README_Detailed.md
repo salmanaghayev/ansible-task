@@ -12,9 +12,9 @@ This task was tested on Windows based host machine. However can be deployed on a
 
 ### Download and install 
 
-Vagrant 2.1.5_x86_64.msi
-VirtualBox 5.2.18-124319-Win.exe
-Git-2.19.0-64-bit.exe
+Vagrant 2.1.5_x86_64.msi\n
+VirtualBox 5.2.18-124319-Win.exe\n
+Git-2.19.0-64-bit.exe\n
 
 #### Installing
 
