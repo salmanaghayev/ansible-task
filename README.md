@@ -2,7 +2,7 @@
 
 ##### Just execute the following command to install and configure all servers (We need to input password for the Ansible-Vault):
 ```bash
-$ git clone https://github.com/salmanaghayev/ansible-task.git && ansible-task
+$ git clone https://github.com/salmanaghayev/ansible-task.git && cd ansible-task
 $ vagrant up
 ```
 
