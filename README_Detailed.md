@@ -48,4 +48,3 @@ In addition Vagrantfile will run *scripts/callplaybooks.sh* on Centos machine wh
 ```
 TASK [Fail if Management Interface is not in the page content] *****************
 skipping: [webserver]
-```
